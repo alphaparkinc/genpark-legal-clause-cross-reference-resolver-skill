@@ -1,0 +1,33 @@
+{
+  "name": "genpark-legal-clause-cross-reference-resolver-skill",
+  "version": "1.0.0",
+  "description": "Contract cross-reference resolver and defined-term graph analyzer detecting circular references and substituting statutory definitions.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "legal-tech",
+    "contract-analysis",
+    "cross-reference",
+    "circular-reference",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "extract_defined_terms",
+      "description": "Extract capitalized defined terms and statutory definitions from contract text."
+    },
+    {
+      "name": "map_clause_dependencies",
+      "description": "Map internal section references (e.g., Section 4.2, Exhibit A)."
+    },
+    {
+      "name": "detect_circular_references",
+      "description": "Detect circular drafting dependencies across contract clauses."
+    },
+    {
+      "name": "run_benchmark_legal_resolution",
+      "description": "Run contract reference dependency and substitution benchmark."
+    }
+  ]
+}
